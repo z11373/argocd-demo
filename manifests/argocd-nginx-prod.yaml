@@ -12,6 +12,6 @@ spec:
     helm:
       valueFiles:
       - values-prod.yaml
-    path: helm
+    path: helm/nginx-deployment
     repoURL: https://github.com/z11373/argocd-demo
     targetRevision: HEAD
